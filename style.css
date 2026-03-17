@@ -21,8 +21,9 @@ color:#0c3d33;
 }
 
 .tagline{
-margin-top:6px;
-color:#2d7a68;
+margin: 20px 0;
+font-size: 20px;
+color:#256856e5;
 }
 
 .link-btn{
@@ -61,8 +62,8 @@ color:#0c3d33;
 
 .footer{
 margin-top:40px;
-font-size:12px;
-color:#6b9e90;
+font-size:22px;
+color:#256856e5;
 }
 
 .icon-box{
@@ -77,4 +78,13 @@ background:rgba(255,255,255,0.2);
 
 .review .icon-box{
 background:rgba(16,120,100,0.1);
+}
+.background-container{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:linear-gradient(135deg,#dceff59f,#b8e9e0);
+z-index:-1;
 }
